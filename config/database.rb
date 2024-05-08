@@ -1,5 +1,5 @@
 configure do
-  # Log queries to STDOUT in development
+  # Log queries to STDOUT in development hello
   if Sinatra::Application.development?
     ActiveRecord::Base.logger = Logger.new(STDOUT)
   end
